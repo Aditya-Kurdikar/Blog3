@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+    <title>Html Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    
+    <form action="message.html">
+        <fieldset style="border:3px solid rgba(223, 132, 14, 0.898);font-family: 'Times New Roman', Times, serif;color: rgb(3, 12, 21);background-color:rgb(174, 217, 241);">
+         
+          <legend><b> Personal Details</b></legend>
+
+        <label for="name" required>Name</label>
+        <input type="text" name="name" required placeholder="Enter Name" id="name"><br>
+        <br>
+        <label for="pw">Password</label>
+        <input type="password" name="pw" required pattern="[0-9]{10}" placeholder="password" id="pw"><br>
+        <br>
+
+        <label for="pno"> Contact</label>
+        <input type="text" name="pno" pattern=[6789][0-9]{9} placeholder="+91" id="pno"><br>
+        <br>
+
+         <label for="Dob">Dob</label>
+         <input type="date" id="Dob" name="Dob"> <br><br>
+
+         <label for="email">Email</label>
+         <input type="email" id="email" name="email"> <br><br>  
+
+         <Gender>Gender</Gender>
+
+         <input type="radio" name="gender" value="Male" >Male</input>
+         
+         <input type="radio" name="gender" value="Female" >Female</input>
+
+         <input type="radio" name="gender" value="Others" >Others</input>
+
+      </fieldset>
+      <br>
+
+
+      <fieldset style="border: 3px solid rgba(223, 132, 14, 0.898);font-family: 'Times New Roman', Times, serif;color: rgb(3, 12, 21);background-color:rgb(174, 217, 241);">
+        
+        <legend><b>Educational Details</b></legend> 
+       
+        <label for="">Department</label> <br><br>
+        
+        <input type="radio" id="cse" name="dept">
+        <label for="cse">Cse</label>
+
+        <input type="radio" id="ec" name="dept">
+        <label for="ec">Ec</label>
+
+        <input type="radio" id="mech" name="dept">
+        <label for="mech">Mech</label>
+
+        <input type="radio" id="civil" name="dept">
+        <label for="civil">Civil</label> <br><br>
+
+        <label for="yop">Yog</label>
+        <input list="yog" id="yop" name="dept">
+
+        <datalist id="yog">
+           <option>2017</option>
+           <option>2018</option>
+           <option>2019</option>
+           <option>2020</option>
+           <option>2021</option>
+           <option>2022</option>
+           <option>2023</option>
+        </datalist>
+
+        <br><br>
+        <label for="">Skills</label>
+
+        <input type="checkbox" name="html" id="html">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" name="css" id="css">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" name="js" id="js">
+        <label for="js">JAVASCRIPT</label><br><br>
+
+        <label for="resume"> Resume:</label>
+        <input type="file" name="name" required id="resume">
+        
+      
+        <br>
+    </fieldset>
+        
+     <br>
+     <button type="submit">Submit</button>
+     <button type="reset">Reset</button>
+     
+     
+
+     </form>
+    </body>
+    </html>
+
+
+
+    
+    
+    

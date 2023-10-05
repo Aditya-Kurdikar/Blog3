@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+form {
+    background-color: #ffffff;
+}
+
+
+fieldset {
+    border: 1px solid #ccc;
+}
+
+
+button {
+    background-color: rgb(16, 68, 18);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border:none;
+    
+}
+
+button:hover{
+    background-color: rgb(44, 5, 117);
+}
+
+button[type="reset"] {
+    border:none;
+    background-color: #61110b;
+    
+}
+
+button:hover[type ="reset"]{
+    background-color: #85e637;
+}
